@@ -1,0 +1,55 @@
+&control
+    calculation  = 'nscf',
+    restart_mode = 'from_scratch',
+    prefix       = 'MoS2-2H',
+    pseudo_dir   = '/home/rehnd/.local/espresso-5.2.0/pseudo',
+    outdir       = '../out',
+
+    wf_collect    = .true.
+    verbosity     = 'high'
+    forc_conv_thr = 0.01D-3
+    etot_conv_thr = 1D-6
+/
+&system
+    ibrav       = 4,
+    celldm(1)   = 6.02882349219,
+    celldm(3)   = 4.66380258256,
+    nat         = 6,
+    ntyp        = 2,
+    ecutwfc     = 37,
+    occupations = 'smearing',
+    degauss     = 0.005
+    ! vdw_corr    = 'dft-d'
+    ! tot_charge  = 0.5
+/
+&electrons
+    conv_thr         = 1.0e-10
+    electron_maxstep = 100,
+    mixing_mode      = 'plain'
+    mixing_beta      = 0.1
+    !diagonalization  ='cg'
+/
+
+ATOMIC_SPECIES
+S  32.065  S.pbe-mt_fhi.UPF
+Mo 95.94  Mo.pbe-mt_fhi.UPF
+
+ATOMIC_POSITIONS {crystal}
+S     0.333333000   0.666667000   0.144245583
+S     0.666667000   0.333333000   0.644245583
+S     0.333333000   0.666667000   0.355754417
+S     0.666667000   0.333333000   0.855754417
+Mo    0.666667000   0.333333000   0.250000000
+Mo    0.333333000   0.666667000   0.750000000
+
+K_POINTS {automatic}
+12 12 12 0 0 0
+
+
+! Original ATOMIC_POSTIIONS
+! S  0.333333 0.666667 0.144826
+! S  0.666667 0.333333 0.644826
+! S  0.333333 0.666667 0.355174
+! S  0.666667 0.333333 0.855174
+! Mo 0.666667 0.333333 0.250000
+! Mo 0.333333 0.666667 0.750000
