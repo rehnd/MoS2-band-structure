@@ -1,4 +1,4 @@
-# Band Structure via Quantum Espresso
+# Band Structure and Phonon calculations in Quantum Espresso and VASP
 
 This repo provides files for electron band structure calculations and phonon calculations of bulk 2H-phase MoS2 for both Quantum Espresso and VASP.
 
