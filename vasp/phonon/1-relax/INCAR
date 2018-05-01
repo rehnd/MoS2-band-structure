@@ -1,16 +1,23 @@
-ALGO = Fast
-EDIFF = 0.0003
-ENCUT = 520
-IBRION = 2
-ICHARG = 1
-ISIF = 3
-ISMEAR = -5
-ISPIN = 2
-LORBIT = 11
-LREAL = Auto
-LWAVE = False
-MAGMOM = 2*5.0 4*0.6
-NELM = 100
-NSW = 99
-PREC = Accurate
-SIGMA = 0.05
+SYSTEM  = 2H-MoS2
+NCORE   = 8
+
+ENCUT   = 600
+ALGO    = Fast
+IBRION  = 2
+ISIF    = 3
+NSW     = 1000
+POTIM   = 0.5
+
+EDIFF   = 1.0e-05
+ISYM    = 2
+LREAL   = .FALSE.
+
+ISMEAR  = 0
+SIGMA   = 0.05
+
+PREC    = Accurate
+ADDGRID = .TRUE.
+
+NWRITE  = 1
+LCHARG  = .FALSE.
+LWAVE   = .FALSE.
