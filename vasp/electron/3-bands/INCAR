@@ -1,0 +1,23 @@
+SYSTEM  = MoS2
+NCORE   = 8
+#KPAR   = 8
+
+ICHARG  = 11
+
+ENCUT   = 600
+ALGO    = Fast
+IBRION  = -1
+
+EDIFF   = 1.0e-06
+ISYM    = 0
+LREAL   = .FALSE.
+
+ISMEAR  = 0
+SIGMA   = 0.05
+
+PREC    = Accurate
+ADDGRID = .TRUE.
+
+NWRITE  = 1
+LCHARG  = .FALSE.
+LWAVE   = .FALSE.
