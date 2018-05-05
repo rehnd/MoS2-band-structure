@@ -9,4 +9,6 @@
 #SBATCH --mem=64000
 #SBATCH --ntasks-per-node=16
 
+cp ../2-scf/CHG .
+cp ../2-scf/CHGCAR .
 mpirun -np 128 vasp
