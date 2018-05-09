@@ -1,0 +1,4 @@
+&input
+fildyn='mos2.dyn',
+asr='zero-dim'
+/

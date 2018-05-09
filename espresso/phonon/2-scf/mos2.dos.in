@@ -1,0 +1,10 @@
+&dos
+prefix  = 'mos2',
+outdir  = 'out',
+ngauss  = -99,
+degauss = 0.005,
+deltae  = 0.1,
+emin    = -12,
+emax    = 12,
+fildos  = "mos2.dos"
+/
