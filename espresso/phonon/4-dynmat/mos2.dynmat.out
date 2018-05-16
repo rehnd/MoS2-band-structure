@@ -1,0 +1,58 @@
+
+     Program DYNMAT v.6.2 (svn rev. 14038) starts on 11May2018 at 12:30:41 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+
+     Reading Dynamical Matrix from file mos2.dyn
+     ...Force constants read
+     ...epsilon and Z* not read (not found on file)
+     Acoustic Sum Rule: || Z*(ASR) - Z*(orig)|| =    0.000000E+00
+     Acoustic Sum Rule: ||dyn(ASR) - dyn(orig)||=    6.917680E-01
+     A direction for q was not specified:TO-LO splitting will be absent
+
+     Polarizability (A^3 units)
+     multiply by 1.000000 for Clausius-Mossotti correction
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+
+     IR activities are in (D/A)^2/amu units
+
+# mode   [cm-1]    [THz]      IR
+    1   -105.36   -3.1585    0.0000
+    2     -0.00   -0.0000    0.0000
+    3     -0.00   -0.0000    0.0000
+    4      0.00    0.0000    0.0000
+    5      0.00    0.0000    0.0000
+    6      0.00    0.0000    0.0000
+    7      0.00    0.0000    0.0000
+    8    254.19    7.6205    0.0000
+    9    271.58    8.1418    0.0000
+   10    274.99    8.2440    0.0000
+   11    294.28    8.8224    0.0000
+   12    343.57   10.2999    0.0000
+   13    369.34   11.0725    0.0000
+   14    371.60   11.1402    0.0000
+   15    374.79   11.2360    0.0000
+   16    413.29   12.3902    0.0000
+   17    445.68   13.3612    0.0000
+   18    461.74   13.8425    0.0000
+ 
+     DYNMAT       :     0.02s CPU         0.07s WALL
+
+ 
+   This run was terminated on:  12:30:41  11May2018            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

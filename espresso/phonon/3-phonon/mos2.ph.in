@@ -3,8 +3,8 @@ MoTe2 Phonon calculation
   prefix   = 'mos2',
   outdir   = './out',     ! NOTE: must copy (or already have) out/ from 1-scf/ directory
 
-  tr2_ph   = 1.0d-12,     ! threshold for self-consistency
-  amass(1) = 127.60,      ! atomic mass of each atom type
+  tr2_ph   = 1.0d-10,     ! threshold for self-consistency
+  amass(1) = 32.00,      ! atomic mass of each atom type
   amass(2) = 95.95,
 
   search_sym = .true,
@@ -14,9 +14,9 @@ MoTe2 Phonon calculation
   !lqdir    = .true.,     ! create separate subdir in outdir for each q vector 
 
   !! NON-METALS ONLY:
-  epsil    = .true.,     ! calc diel constant (non-metals only) (+trans=true -> Born effect. charges)
-  lrpa     = .true.,     ! calc diel constant with RPA (DV_xc = 0)
-  lraman   = .true.,     ! calc non-resonant Raman  (M. Lazzeri and F. Mauri, PRL 90, 036401, 2003)
+  !epsil    = .true.,     ! calc diel constant (non-metals only) (+trans=true -> Born effect. charges)
+  !lrpa     = .true.,     ! calc diel constant with RPA (DV_xc = 0)
+  !lraman   = .true.,     ! calc non-resonant Raman  (M. Lazzeri and F. Mauri, PRL 90, 036401, 2003)
   !zue      = .true.,     ! alternative algorithm for Born effect. charges (need trans=epsil=.false.)
 /
 0.0 0.0 0.0  ! phonon wave-vector (Gamma = [0,0,0]) need ldisp=.false. & gplot=.false.

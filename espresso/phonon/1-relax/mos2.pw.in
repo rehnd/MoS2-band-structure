@@ -35,8 +35,8 @@
    press           = 0.00,  ! desired end pressure
 /
 ATOMIC_SPECIES
-   S      32.06      S.pbe-n-kjpaw_psl.0.1.UPF
-   Mo     95.95     Mo.pbe-spn-kjpaw_psl.0.2.UPF
+ S  32.065   S.pbe-mt_fhi.UPF
+ Mo 95.94   Mo.pbe-mt_fhi.UPF
 CELL_PARAMETERS (angstrom)
    3.190316   0.000000   0.000000
   -1.595158   2.762894   0.000000

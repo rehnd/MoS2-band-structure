@@ -24,12 +24,19 @@
    diagonalization =  'david',
 /
 ATOMIC_SPECIES
-    S     32.06      S.pbe-n-kjpaw_psl.0.1.UPF
-   Mo     95.95     Mo.pbe-spn-kjpaw_psl.0.2.UPF
+   S  32.065   S.pbe-mt_fhi.UPF
+  Mo  95.94   Mo.pbe-mt_fhi.UPF
 CELL_PARAMETERS (angstrom)
-
+   3.1832   0.0000   0.0000
+  -1.5916   2.7567   0.0000
+   0.0000   0.0000  13.719
 ATOMIC_POSITIONS (crystal)
-
-K_POINTS automatic 
+Mo       0.666667000   0.333333000   0.250000000
+Mo       0.333333000   0.666667000   0.750000000
+S        0.333333000   0.666667000   0.135165155
+S        0.666667000   0.333333000   0.635165155
+S        0.333333000   0.666667000   0.364834845
+S        0.666667000   0.333333000   0.864834845
+K_POINTS (automatic)
    16 16 8 1 1 1
 
