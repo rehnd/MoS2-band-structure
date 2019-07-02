@@ -1,0 +1,19 @@
+SYSTEM = 2H-MoS2
+NCORE  = 8
+
+# Freq.-dep. diel. tensor w/out local field effects
+ALGO    = Exact
+NBANDS  = 128
+LOPTICS = .TRUE.
+CSHIFT  = 0.1
+NEDOS   = 3000
+
+# you might try
+#LPEAD = .TRUE.
+
+#ENCUT  = 400
+ISMEAR = 0
+SIGMA  = 0.05
+EDIFF  = 1e-4
+
+LVTOT  = .TRUE.
