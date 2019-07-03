@@ -1,0 +1,4 @@
+Begin Projections
+  Random
+End Projections
+ num_wann =   128  ! set to NBANDS by VASP
