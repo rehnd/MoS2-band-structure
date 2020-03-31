@@ -1,5 +1,5 @@
 SYSTEM = 2H-MoS2
-KPAR   = 8
+KPAR   = 15
 
 MAXMEM = 8000
 
