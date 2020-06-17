@@ -1,5 +1,5 @@
 from pylab import *
-
+rcParams.update({'font.size':48})
 
 def getbands(fname):
     efermi = 0
@@ -108,6 +108,7 @@ if __name__ == '__main__':
     axhline(0, lw=1, color='k')
     axhline(ec-efermi, lw=1, color='r')
     axhline(ev-efermi, lw=1, color='g')
+    xticks([])
     ylim(-5,5)
     xlim(0,kx[-1])
     ylabel('$E - E_f$ (eV)')
