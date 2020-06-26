@@ -1,26 +1,21 @@
 SYSTEM   = MoS2
 NCORE    = 8
+KPAR     = 4
 
 ENCUT    = 600
-ALGO     = Fast
-
-IBRION   = 8
-ISIF     = 2
-NSW      = 1
-POTIM    = 0.5
-
+ALGO     = Normal
 PREC     = Accurate
-EDIFF    = 1.0e-05
+EDIFF    = 1.0e-8
 
-ISYM     = 0
-LREAL    = .FALSE.
+IBRION   = 7
+NSW      = 1
 
 ISMEAR   = 0
 SIGMA    = 0.05
 
-ADDGRID  = .TRUE.
-LCHARG   = .FALSE.
-LWAVE    = .FALSE.
+LASPH    = True
+LREAL    = False
+ADDGRID  = True
 
 NWRITE   = 3
-LEPSILON = .TRUE.
+LEPSILON = True
