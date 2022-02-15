@@ -1,0 +1,27 @@
+SYSTEM = MoS2
+
+NCORE  = 18
+KPAR   = 8
+
+# Freq.-dep. diel. tensor w/out local field effects
+ALGO    = Exact
+NBANDS  = 65
+LOPTICS = True
+CSHIFT  = 0.1
+
+NELM  = 4
+
+# you might try
+#LPEAD = .TRUE.
+
+ENCUT  = 400
+EDIFF  = 1e-7
+PREC   = Accurate
+LREAL  = False
+LASPH  = True
+
+ISMEAR = 0
+SIGMA  = 0.05
+NEDOS  = 3000
+
+LWAVE   = True
