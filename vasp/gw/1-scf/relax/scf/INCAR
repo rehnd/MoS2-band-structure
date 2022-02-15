@@ -1,0 +1,21 @@
+SYSTEM  = MoTe2
+
+KPAR   = 20
+
+ENCUT   = 400
+IBRION  = -1
+ISYM    = 2
+NSW     = 1
+
+ISMEAR  = 0
+SIGMA   = 0.05
+NBANDS  = 65
+NEDOS   = 3000
+
+PREC    = Accurate
+EDIFF   = 1.e-8
+LREAL   = False
+LASPH   = True
+
+LWAVE      = True
+LWANNIER90 = True

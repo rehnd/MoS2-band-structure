@@ -1,0 +1,10 @@
+# Bandstructure plot 
+restart         =  plot
+bands_plot      =  true
+begin kpoint_path
+  G 0.0000   0.0000   0.0000   M 0.5000   0.0000   0.0000
+  M 0.5000   0.0000   0.0000   K 0.3333   0.3333   0.0000
+  K 0.3333   0.3333   0.0000   G 0.0000   0.0000   0.0000
+end kpoint_path
+bands_num_points 40
+bands_plot_format gnuplot xmgrace
