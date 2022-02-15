@@ -1,0 +1,24 @@
+SYSTEM = MoS2
+KPAR   = 20
+
+MAXMEM = 12000
+
+ALGO      = GW0
+LSPECTRAL = True
+NELM      = 1
+NOMEGA    = 100
+
+NBANDS = 65
+NEDOS  = 3000
+
+# update the quasiparticle energies in Green's function (GW0)
+#NELM = 4
+
+ENCUT  = 400
+ISMEAR = 0
+SIGMA  = 0.05
+EDIFF  = 1e-7
+LASPH  = True
+
+LWANNIER90 = True
+

@@ -1,0 +1,8 @@
+Begin Projections
+  Random
+End Projections
+
+guiding_centres = .true.
+
+num_iter = 400
+
